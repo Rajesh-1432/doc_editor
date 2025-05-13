@@ -53,7 +53,7 @@ const handleFileContentLoaded = (htmlContent) => {
           onFileContentLoaded={handleFileContentLoaded} 
             content={content}
         />
-        <Editor content={content} setContent={setContent} editorRef={editorRef} />
+        <Editor content={content} setContent={setContent} editorRef={editorRef} setHeadings={setHeadings} />
       </div>
     </div>
   );
